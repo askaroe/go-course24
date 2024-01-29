@@ -9,10 +9,10 @@ import (
 )
 
 func main() {
-	log.Println("starting API server")
+	log.Println("Student list of chunin exam 🍥")
 
 	router := mux.NewRouter()
-	log.Println("creating routes")
+	log.Println("Creating route to Hidden Leaf 🍃")
 
 	router.HandleFunc("/health-check", handlers.HealthCheck).Methods("GET")
 	router.HandleFunc("/genins", handlers.GetGenins).Methods("GET")
