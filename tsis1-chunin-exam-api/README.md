@@ -28,7 +28,7 @@
   <p>To use the Chunin Exam API, follow these installation steps:</p>
 
   <pre><code># Clone the repository
-git clone https://github.com/askaroe/go-course24/tsis1-chunin-exam-api.git
+git clone https://github.com/askaroe/go-course24/tree/main/tsis1-chunin-exam-api
 
 # Change to the project directory
 cd tsis1-chunin-exam-api
