@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/askaroe/go-course24/tsis1-chunin-exam-api/api"
+	"github.com/askaroe/go-course24/tree/main/tsis1-chunin-exam-api/api"
 	"github.com/gorilla/mux"
 )
 
 func HealthCheck(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
-	fmt.Fprintf(w, " 🚀Welcome to Chunin exam API, a simple API for managing data related to Chunin exams in the world of Naruto💥. It provides endpoints to retrieve information about genins participating in the exams.\n Author: 2nd year KBTU student Askar Oralkhan🍥")
+	fmt.Fprintf(w, " 🚀 Welcome to Chunin exam API, a simple API for managing data related to Chunin exams in the world of Naruto💥. It provides endpoints to retrieve information about genins participating in the exams.\n Author: 2nd year KBTU student Askar Oralkhan🍥")
 }
 
 func GetGenins(w http.ResponseWriter, r *http.Request) {

@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/askaroe/go-course24/tsis1-chunin-exam-api/pkg/handlers"
+	"github.com/askaroe/go-course24/tree/main/tsis1-chunin-exam-api/pkg/handlers"
 	"github.com/gorilla/mux"
 )
 
